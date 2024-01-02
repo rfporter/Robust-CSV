@@ -1,4 +1,4 @@
-Robust CSV v1.1.0
+Robust CSV v1.2.0
 
 Copyright © 2014, Ryan Porter
 All rights reserved.
@@ -8,9 +8,7 @@ LAVA Name: Porter
 Contact Info:	Contact via PM on lavag.org
 
 LabVIEW Versions:
-LV 2013 (Windows)
 LV 2012 (Windows)
-LV 8.6 (Windows)
 
 Dependencies:
 LAVA Palette
@@ -36,14 +34,15 @@ Version History:
 v1.0.0: Initial release of the code.
 v1.0.1: Modified "Flatten to CSV Record.vi" to play nice with Excel CSV import when multi-line cells are present.
 v1.1.0: Moved to LAVA palette & built to VI package file.
+v1.2.0: Marked project VIs to separate compiled code. Set all VIs to pre-allocated clone re-entrant execution.
 
 License:
 Distributed under the BSD 2-Clause (http://opensource.org/licenses/BSD-2-Clause)
 See link for a full description of the license.
 
 Support:
-If you have any problems with this code or want to suggest features go to lavag.org and Navigate to LAVA > Resources > Code Repository (Certified) and
-search for the "Robust CSV" support page. Or try this link: http://lavag.org/files/file/239-robust-csv/
 
-Distribution:
-This code was downloaded from the LAVA Code Repository found at lavag.org
+GitHub Repo: https://github.com/rfporter/Robust-CSV
+LAVA Homepage: https://lavag.org/files/file/239-robust-csv/
+VIPM Page: https://www.vipm.io/package/lava_lib_robust_csv/
+

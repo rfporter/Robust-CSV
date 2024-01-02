@@ -1,6 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="8608001">
+<Project Type="Project" LVVersion="12008004">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -24,21 +28,25 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{32A6090E-C987-4766-89C8-82E94B8263B8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Source Distribution</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/12.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">4</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3B4F3AA1-E348-454C-9F5F-007437B42686}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -48,7 +56,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Documentation</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Source Distribution/Documentation</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D6255000-3F78-4DF3-8256-4381A35E2A36}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B210B47-946E-4A57-AE57-748D72078DCF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Robust CSV.lvlib</Property>
