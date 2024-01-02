@@ -1,5 +1,4 @@
 # Robust CSV
-v1.1.0
 
 Copyright © 2014, Ryan Porter
 All rights reserved.
@@ -9,11 +8,13 @@ LAVA Name: Porter
 Contact Info:	Contact via PM on lavag.org
 
 LabVIEW Versions:
+
 LV 2013 (Windows)
 LV 2012 (Windows)
 LV 8.6 (Windows)
 
 Dependencies:
+
 LAVA Palette
 
 Description:
